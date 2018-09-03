@@ -8,14 +8,10 @@ import {Component, ViewEncapsulation} from '@angular/core';
 })
 
 export class DropdownComponent {
-  dixh = 'Privet!';
   random;
   public randomize() {
     this.random = Math.floor(Math.random() * 10);
     console.log(this.random);
   }
 
-  openList() {
-    console.log('ZZdarowa!');
-  }
 }
