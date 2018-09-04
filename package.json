@@ -7,7 +7,9 @@
     "start": "ng serve",
     "build": "ng build --prod --output-hashing=none",
     "package": "cat dist/{runtime,polyfills,main}.js | gzip > elements.js.gz",
-    "serve": "http-server --gzip"
+    "serve": "http-server --gzip",
+    "e2e": "ng e2e",
+    "ngc": "ngc -p src/tsconfig.app.json"
   },
   "private": true,
   "dependencies": {
